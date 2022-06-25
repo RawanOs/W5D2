@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f3f3f3;
+    font-family: 'Roboto', sans-serif;
+}
+
+.flex-container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+.flex-container , .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    
+ 
+    
+}
+
+.nav {
+    height: 65px;
+    background-color: rgb(59, 91, 126);
+    color: #fff;
+    margin-bottom: 30px;
+    
+}
+
+/* .image-header {
+    background-color: #146b78;
+    height: 80px;
+    margin-bottom: 65px;
+    display: block;
+} */
+
+.flex-container.main {
+    align-items: flex-start;
+}
+
+.col-2 {
+    flex: 2;
+    margin-left: 350px;
+}
+
+.col-1 {
+    flex: 1;
+    margin-right: 1160px;
+    margin-top: -647px;
+   margin-left: 50px;
+}
+
+
+
+
+
+
+.col-1 .section{
+   
+    margin-top: 100px;
+    size: 10;
+}
+
+.col-3 .section{
+   
+    margin-top: 100px;
+    size: 10;
+      
+     border: 2px solid rgb(173, 113, 176); 
+}
+
+.section{
+     background-color: rgba(247, 152, 242, 0.592); 
+     border: 2px solid #999; 
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+
+.section-body {
+    padding: 20px;
+}
+
+.section-body h1, 
+.section-body h2,
+.section-body h3,
+.section-body p {
+    margin: 10px 0px;
+}
+
+.section-body h2 {
+    color: rgb(26, 26, 173);
+}
+
+.section-body img {
+
+    align-items: center; 
+    margin-left: 280px;
+    
+}
+
+
+
+/* .badge {
+    border-radius: 18px;
+    margin-right: 11px;
+    font-size: 1rem;
+    height: 26px;
+    line-height: 24px;
+    padding: 0 10px;
+    background-color: rgb(56, 20, 20);
+    
+} */
+
+
+.section2-list {
+    /* padding: 2px; */
+    list-style-type: circle;
+    
+    
+}
+
+/* .section2-list-item, 
+.section2-list-item > * {
+    display: flex;
+    align-items: left;
+    list-style-type: circle;
+} */
+
+.section2-list-item {
+    margin-bottom: 20px;
+    list-style-type: circle;
+    
+
+}
+
+/* .section2-list-item.start {
+    justify-content: flex-start;
+    list-style-type: circle;
+} */
+
+
+.btn1 {
+    height: 45px;
+    width: 210px;
+    color: #fff;
+    background-color: #17a2b8;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn2 {
+    height: 45px;
+    width: 210px;
+    color: #fff;
+    background-color: #c884af;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.col-3 {
+    flex: 1;
+    margin-top: 160px;
+   margin-left: 60px;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+    margin-top: 340px;
+  }
